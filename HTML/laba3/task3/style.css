@@ -1,0 +1,29 @@
+header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+sidebar {
+	position: absolute;
+	left: 0;
+	top: 140px;
+	bottom: 50px;
+	width: 200px;
+}
+
+content {
+	position: absolute;
+	left: 200px;
+	right: 0;
+	top: 140px;
+	bottom: 50px;
+	overflow: auto;
+}
