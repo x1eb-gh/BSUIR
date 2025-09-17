@@ -10,22 +10,20 @@ table td {
 	height: 40px;
 	background-color: #ddd;
 	color: #333;
-	display: flex;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	font-size: 20px;
-	border-radius: 4px;
+	bordexr-radius: 4px;
 	cursor: pointer;
 	user-select: none;
-	transition: background 0.2s;
 }
 
 table td:hover {
 	background-color: #ccc;
 }
 
-table td.active {
+table td:active {
 	background-color: #d10953;
 	color: #fff;
 }
