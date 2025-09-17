@@ -14,7 +14,7 @@ table td {
 	justify-content: center;
 	text-align: center;
 	font-size: 20px;
-	bordexr-radius: 4px;
+	border-radius: 4px;
 	cursor: pointer;
 	user-select: none;
 }
