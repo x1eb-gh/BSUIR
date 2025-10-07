@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BSUIR\\CPP\\laba1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55096E9A-3934-40D5-8B31-76E9A2F51588}|laba1.vcxproj|D:\\BSUIR\\CPP\\laba1\\laba1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55096E9A-3934-40D5-8B31-76E9A2F51588}|laba1.vcxproj|solutionrelative:laba1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "laba1.cpp",
+              "DocumentMoniker": "D:\\BSUIR\\CPP\\laba1\\laba1.cpp",
+              "RelativeDocumentMoniker": "laba1.cpp",
+              "ToolTip": "D:\\BSUIR\\CPP\\laba1\\laba1.cpp",
+              "RelativeToolTip": "laba1.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-06T21:36:34.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
