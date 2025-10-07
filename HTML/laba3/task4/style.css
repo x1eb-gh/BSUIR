@@ -1,5 +1,6 @@
 header {
-	position: absolute;
+	position: fixed;
+	z-index: 2;
 	top: 0;
 	width: 100%;
 	background-color: lightblue;
@@ -8,11 +9,16 @@ header {
 }
 
 main {
-	position: fixed;
+	position: absolute;
+	z-index: 1;
 	top: 90px;
 	bottom: 50px;
 	left: 40px;
 	right: 40px;
+}
+
+section {
+	position: sticky;
 	background-color: aqua;
 	color: black;
 	padding: 10px;
