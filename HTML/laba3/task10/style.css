@@ -1,0 +1,55 @@
+main {
+	background-image: url("bg.jpg");
+	width: 600px;
+	height: 400px;
+	position: relative;
+}
+
+img.asteroid {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 400px;
+	z-index: 100;
+}
+
+img.superman {
+	position: absolute;
+	margin-top: 325px;
+	margin-left: 400px;
+	z-index: 100;
+}
+
+img.pl1 {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 90px;
+	z-index: 1;
+}
+
+img.pl2 {
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 10px;
+	z-index: 2;
+}
+
+img.pl3 {
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 60px;
+	z-index: 3;
+}
+
+img.ufo {
+	position: absolute;
+	margin-top: 340px;
+	margin-left: 70px;
+	z-index: 4;
+}
+
+img.rocket {
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 70px;
+	z-index: 4;
+}
