@@ -1,0 +1,22 @@
+.cur {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	display: inline-block;
+}
+
+.cur1 {
+	cursor: pointer;
+}
+
+.cur2 {
+	cursor: not-allowed;
+}
+
+.cur3 {
+	cursor: zoom-in;
+}
+
+.cur4 {
+	cursor: url('popcat.svg'), auto;
+}
