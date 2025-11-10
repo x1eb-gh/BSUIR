@@ -1,0 +1,30 @@
+.nav a {
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+	display: inline;
+}
+
+ul {
+	list-style: none;
+	display: inline;
+	padding: 10px 16px;
+}
+
+ul li {
+	display: inline;
+}
+
+ul a:after {
+	padding: 8px;
+	color: black;
+	content: ">\00a0";
+}
+
+span {
+	color: #333;
+}
+ul li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
