@@ -16,26 +16,25 @@ void main()
 
     f = 0.;
 
-    cout << "\n Hi! Print values of variables:\na =  "; cin >> a;
-    cout << "b =  "; cin >> b;
-
-    cout << "z =  "; cin >> z;
-
+    printf("\n Hi!Print values of variables : \na =  "); scanf_s("%lf", &a);
+    printf("b =  "); scanf_s("%lf", &b);
+    printf("z =  "); scanf_s("%lf", &z);
+   
     if (z < -1) {
-        cout << "\nYou choose z = " << z << ", your x = -z/3" << endl;
+        printf("\nYou choose z = %lf , your x = -z / 3\n", &z);
         x = -((z * 1.) / 3.);
     }
     else {
-        cout << "\nYou choose z = " << z << ", your x = |z|" << endl;
-        x = abs(z);
+        printf("\nYou choose z = %lf , your x = |z|\n", &z);
+        x = fabs(z);
     };
     // Ограничения на логарифм по z не нужны, т.к. lh(x + 2,5) с учетом системы задания x принадлежит D(z) 
 
     do {
-        cout << "Please, select function:\n1:\t2x\n2:\tx^2\n3:\tx/3\n" << endl;
-        cin >> select;
+        printf("Please, select function:\n1:\t2x\n2:\tx^2\n3:\tx/3\n\n");
+        scanf_s("%i", select);
         switch (select) {
-            case 1: f = 2 * x; cout << "\nYou select: f = 2x" << endl; break;
+            case 1: f = 2 * x; printf("\nYou select: f = 2x"); break;
             case 2: f = pow(x, 2); cout << "\nYou select f = x^2" << endl; break;
             case 3: f = (x * 1.) / 3.; cout << "\nYou select f = x/3" << endl; break;
             default: cout << "\nERROR!!! Uncnown number!!!\n" << endl; break;
@@ -46,7 +45,7 @@ void main()
     res_1 = a * f;
     res_2 = log(x + 2.5);
     res_3 = 2 * b * sinh(x);
-    cout << "\ny =  " << (res_1 - res_2 + res_3) << endl;
+    printf("\ny = %lf", (res_1 - res_2 + res_3));
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
