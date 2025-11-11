@@ -1,0 +1,22 @@
+.grid {
+	font-size: 30px;
+	width: auto;
+	height: 700px;
+}
+div {
+	margin: 10px;
+	padding: 20px;
+	width: 300px;
+	height: 97%;
+	text-align: center;
+	
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.grid > div {
+	background-color: blue;
+	border: 0.01em solid black;
+}
