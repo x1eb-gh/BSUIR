@@ -1,0 +1,43 @@
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+}
+
+.cards > div {
+	background-color: lightblue;
+	border: 0.01em solid black;
+	margin: 1em;
+	padding: 0.3em;
+	width: 15em;
+	height: 22em;
+	text-align: center;
+	font-size: 25px;
+}
+
+.card p {
+	font-size: 20px;
+}
+
+.box {
+	height: 50px;
+	justify-content: end;
+	bottom: 10px;
+}
+
+.box.red {
+	background-color: red;
+}
+
+.box.blue {
+	background-color: blue;
+}
+
+.box.green {
+	background-color: green;
+}
