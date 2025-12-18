@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<main>
+			<input type="text" id="firstNumber"> + <input type="text" id="secondNumber"> = <div id="res" style="display: inline;"></div><br><br>
+			<button onclick="CalculateResult(document.getElementById('firstNumber'), document.getElementById('secondNumber'))">Посчитать</button>
+		</main>
+		<script>
+			let CalculateResult = (first, second) => {
+				document.getElementById("res").textContent = Number(first.value) + Number(second.value);
+			};
+		</script>
+	</body>
+</html>
