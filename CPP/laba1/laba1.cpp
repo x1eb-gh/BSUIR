@@ -3,13 +3,16 @@
 
 using namespace std;
 
-double main() {
+int main() {
     double x, y, z;
     
     puts("Hi! Please, print values of variables!");
-    printf("x =  "); scanf_s("%lf", &x);
-    printf("y =  "); scanf_s("%lf", &y);
-    printf("z =  "); scanf_s("%lf", &z);
+    printf("x =  ");
+    scanf_s("%lf", &x);
+    printf("y =  ");
+    scanf_s("%lf", &y);
+    printf("z =  ");
+    scanf_s("%lf", &z);
 
     double res_1 = pow(y, -(sqrt(fabs(x))));
     double res_2 = (log(res_1)) * (x - y / 2);
@@ -17,7 +20,7 @@ double main() {
 
     double result = res_2 + res_3;
 
-    printf("Result = %lf\n\n\n", result);
+    printf("Result = %lf", result);
 
-    return result;
+    return 0;
 }
