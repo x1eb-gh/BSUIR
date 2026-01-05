@@ -49,10 +49,13 @@ double main() {
         }
     } while ((select > 3) || (select < 1));
 
-    double res_1, res_2, res_3;
+    double res_1, res_2, res_3, result;
+
     res_1 = a * f;
     res_2 = log(x + 2.5);
     res_3 = 2 * b * sinh(x);
-    printf("\ny = %lf", (res_1 - res_2 + res_3));
-    return res_1 - res_2 + res_3;
+    result = res_1 - res_2 + res_3;
+
+    printf("\ny = %lf", result);
+    return result;
 }
