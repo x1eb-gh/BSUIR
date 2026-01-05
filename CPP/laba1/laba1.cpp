@@ -1,4 +1,5 @@
-﻿#include <cmath>
+﻿
+#include <cmath>
 #include <stdio.h>
 
 using namespace std;
