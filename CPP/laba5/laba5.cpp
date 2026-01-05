@@ -12,7 +12,8 @@ int main() {
     srand(time(0));
 
     do {
-        printf("n <= 20 = "); scanf_s("%i", &n);
+        printf("n <= 20 = ");
+        scanf_s("%i", &n);
         if (n < 1 || n > 20) {
             puts("ERROR! Wrong N!");
         }
@@ -46,8 +47,9 @@ int main() {
         }
     }
 
-    if (furst_null_index == -1 || second_null_index == -1) {
-        puts("Not enough zero elements found!");
+    if (furst_null_index == -1 || second_null_index == -1 || second_null_index - furst_null_index < 2) {
+        puts("Not enough zero elements found or not enough distance between!");
+        return 1;
     }
     else {
         int proizv = 1;
