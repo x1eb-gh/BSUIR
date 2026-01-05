@@ -9,7 +9,7 @@ using namespace std;
 
 double s_x(int n, double x) {
     double result = 1;
-    int fact;
+    int fact = 1;
 
     for (int k = 1; k <= n; k++) {
         fact *= k;
@@ -26,7 +26,7 @@ double y_x(double x) {
     return result;
 }
 
-void main() {
+int main() {
     double a, h, b, x, e;
     int n = 0;
 
@@ -52,4 +52,6 @@ void main() {
         n = 0;
         puts("--------------------------------------------------------------------------------------------------------------");
     }
+
+    return 0;
 }
