@@ -1,0 +1,33 @@
+.header{
+	width: 1440px;
+	height: 55px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #FFFAEF;
+}
+
+.header-nav{
+	width: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.header-logo{
+	color: #00C08B;
+	font-family: Roboto;
+	font-size: 20px;
+	letter-spacing: 0.4px;
+	font-weight: 400;
+}
+
+.header-logo-by{
+	color: #00C08B;
+	font-family: Roboto;
+	font-style: italic;
+	font-size: 18px;
+	letter-spacing: 0.4px;
+	font-weight: 400;
+}

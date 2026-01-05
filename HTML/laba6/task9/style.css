@@ -1,0 +1,61 @@
+.wrapper {
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+.wrapper img {
+    position: absolute;
+}
+
+.planet1 {
+    left: 160px;
+    top: 40px;
+    z-index: 1;
+}
+
+.planet2 {
+    left: 50px;
+    top: 100px;
+    z-index: 2;
+}
+
+.planet3 {
+    left: 140px;
+    top: 140px;
+    z-index: 4;
+}
+
+.spaceship {
+    left: 150px;
+    top: 150px;
+    z-index: 3;
+}
+
+.ufo {
+    left: 120px;
+    top: 300px;
+    z-index: 5;
+}
+
+.asteroid {
+    right: 100px;
+    top: 100px;
+    width: 82px;
+    height: auto;
+}
+
+.superman {
+    right: 30px;
+    bottom: 0;
+}
+
+#fly {
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    padding: 6px 24px;
+    background: #E8CAB5;
+    color: #805a40;
+    z-index: 20;
+    font-size: 24px;
+}

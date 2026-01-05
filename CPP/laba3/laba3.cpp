@@ -12,9 +12,9 @@ using namespace std;
 double s_x(int n, double x) {
     double result = .0;
     int fact;
-    
+    //  k= 0
     for (int k = 0; k <= n; k++) {
-        if (k == 0) fact = 1; else fact *= k;
+        if (k == 0) fact = 1; else fact *= k;       // if--------------
         result += ((cos(k * x)) / fact);
     }
     return result;
@@ -23,15 +23,12 @@ double s_x(int n, double x) {
 double y_x(double x) {
     double result;
     
-    result = pow(M_E, cos(x));
+    result = exp(cos(x));      // exp
     result *= cos(sin(x));
     return result;
 }
 
-void main()
-{
-    setlocale(LC_ALL, "rus");
-
+void main() {
     double a, h, b, x, e;
     int n = 0;
 
@@ -43,8 +40,8 @@ void main()
     puts("x\t\tn\tS(x)\t\tY(x)\t\t|Y(x) - S(x)|");
     puts("--------------------------------------------------------------------------------------------------------------");
 
-    for (a; (a <= b); (a += h)) {
-        x = a;
+    for (x = a; x <= b; x += h) {
+       // x = a;
         printf("%lf\n", x);
         while (abs(y_x(x) - s_x(n, x)) >= e) {
             double s = s_x(n, x), y = y_x(x);

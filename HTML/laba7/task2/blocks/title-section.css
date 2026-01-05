@@ -1,0 +1,19 @@
+.title-section{
+	width: 1390px;
+	height: 216px;
+	border-top: 2px solid #006450;
+}
+
+.title-section-title{
+	width: 583px;
+	height: 132px;
+	position: relative;
+	left: 404px;
+	top: 84px;
+	color: #006450;
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: 0.4px;
+	text-align: center;
+}

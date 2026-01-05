@@ -1,0 +1,100 @@
+.footer{
+	width: 1390px;
+	height: 290px;
+	position: relative;
+	top: 30px;
+	display: flex;
+	flex-direction: column;
+	border-top: 2px solid #006450;
+	padding-bottom: 15px;
+}
+
+.footer-top-part{
+	width: 1390px;
+	height: 290px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-down-part{
+	width: 1390px;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.footer-top-part-card{
+	width: 347.5px;
+	height: 136px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer-top-part-text-wrap{
+	width: 347.5px;
+	height: 60px;
+	
+}
+
+.footer-top-part-card-title{
+	color: #006450;
+	font-family: Roboto;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.footer-top-part-card-text{
+	color: #006450;
+	font-family: Roboto;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.footer-down-part-text1{
+	color: #006450;
+	font-family: Roboto;
+	font-size: 12px;
+	letter-spacing: 0.4px;
+}
+
+.footer-down-part-text2{
+	height: 18px;
+	position: relative;
+	left: 760px;
+	text-align: center;
+	color: #006450;
+	font-family: Roboto;
+	font-size: 11px;
+	line-height: 11px;
+	letter-spacing: 0.4px;
+	background-color: #FFFAEF;
+}
+
+.footer-text3{
+	position: relative;
+	left: 835px;
+	top: -5px;
+}
+
+.footer-logo{
+	color: #00C08B;
+	font-family: Roboto;
+	font-size: 30px;
+	letter-spacing: 0.4px;
+	font-weight: 400;
+	position: relative;
+	left: 460px;
+	top: -10px;
+}
+
+.footer-logo-by{
+	color: #00C08B;
+	font-family: Roboto;
+	font-style: italic;
+	font-size: 25px;
+	letter-spacing: 0.4px;
+	font-weight: 400;
+}

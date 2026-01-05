@@ -1,0 +1,86 @@
+body {
+	font-family: sans-serif;
+}
+
+.wrapper {
+	background: #AAB9E2;
+	height: 500px;
+	position: relative;
+}
+
+.button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 100px;
+	background: #5E67C7;
+	color: white;
+	line-height: 100px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	transition: all 1s ease;
+}
+
+.button.boat {
+	animation: 5s 3.5s ease-in sail-away forwards;
+
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+}
+
+@keyframes sail-away {
+	from {
+		left: 50%;
+	}
+	to {
+		left: -350px;
+	}
+}
+
+.sail {
+	position: absolute;
+	top: 0;
+	left: 60%;
+	background: #5E67C7;
+	width: 10px;
+	height: 0;
+	transition: all 1s 1s ease;
+}
+.boat .sail {
+	height: 150px;
+	top: -150px;
+}
+
+.sail::before {
+	content: '';
+	box-sizing: border-box;
+	border-right: 0 solid white;
+	border-top: 140px solid transparent;
+	position: absolute;
+	right: 15px;
+	top: 0;
+	height: 140px;
+	transition: all 1s 2.1s ease;
+}
+.sail::after {
+	content: '';
+	box-sizing: border-box;
+	border-left: 0 solid white;
+	border-top: 140px solid transparent;
+	position: absolute;
+	left: 15px;
+	top: 0;
+	height: 140px;
+	transition: all 1s 2.1s ease;
+}
+.boat .sail::before {
+	border-right-width: 120px;
+}
+.boat .sail::after {
+	border-left-width: 60px;
+}

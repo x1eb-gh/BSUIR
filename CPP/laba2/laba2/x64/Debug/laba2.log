@@ -1,3 +1,3 @@
 ﻿  laba2.cpp
-D:\BSUIR\CPP\laba2\laba2.cpp(10,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-LINK : fatal error LNK1168: не удается открыть D:\BSUIR\CPP\laba2\x64\Debug\laba2.exe для записи
+D:\BSUIR\CPP\laba2\laba2.cpp(9,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  laba2.vcxproj -> D:\BSUIR\CPP\laba2\x64\Debug\laba2.exe

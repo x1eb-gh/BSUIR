@@ -2,37 +2,33 @@
 //
 
 #include <iostream>
-#include <conio.h>
 #include <cmath>
 
 using namespace std;
 
-void main()
-{
-    setlocale(LC_ALL, "rus");
-
-    double x, z, f, a, b;
+void main() {
+    double x, z, f = 0., a, b;
     int select;
 
     f = 0.;
 
-    printf("\n Hi!Print values of variables : \na =  "); scanf_s("%lf", &a);
+    printf("\nHi! Print values of variables : \na =  "); scanf_s("%lf", &a);
     printf("b =  "); scanf_s("%lf", &b);
     printf("z =  "); scanf_s("%lf", &z);
    
     if (z < -1) {
-        printf("\nYou choose z = %lf , your x = -z / 3\n", &z);
+        printf("\nYou choose z = %lf , your x = -z / 3\n", z);
         x = -((z * 1.) / 3.);
     }
     else {
-        printf("\nYou choose z = %lf , your x = |z|\n", &z);
+        printf("\nYou choose z = %lf , your x = |z|\n", z);
         x = fabs(z);
     };
     // Ограничения на логарифм по z не нужны, т.к. lh(x + 2,5) с учетом системы задания x принадлежит D(z) 
 
     do {
         printf("Please, select function:\n1:\t2x\n2:\tx^2\n3:\tx/3\n\n");
-        scanf_s("%i", select);
+        scanf_s("%i", &select);
         switch (select) {
             case 1: f = 2 * x; printf("\nYou select: f = 2x"); break;
             case 2: f = pow(x, 2); cout << "\nYou select f = x^2" << endl; break;

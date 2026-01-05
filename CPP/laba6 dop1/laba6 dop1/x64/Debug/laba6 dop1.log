@@ -1,0 +1,3 @@
+﻿  laba6 dop1.cpp
+D:\BSUIR\CPP\laba6 dop1\laba6 dop1.cpp(13,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  laba6 dop1.vcxproj -> D:\BSUIR\CPP\laba6 dop1\x64\Debug\laba6 dop1.exe

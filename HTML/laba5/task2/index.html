@@ -4,20 +4,22 @@
 	<meta charset="UTF-8">
 </head>
 <body>
-	aplkfdpdk
-	<form id="form1">Ваше имя?</form>
+	<input id="input" type="text">
+	<button id="button" onclick="onButtonClick()">Обработать!</button>
 	<script>
-		name = "Sergey";
-		for (let i = 0; i < name.length; i++ ) {
-			alert(name[i]);
-		}
+		let onButtonClick = () => {	
+			let name = document.getElementById("input").value;
+			for (let i = 0; i < name.length; i++ ) {
+				alert(name[i]);
+			}
 
-		num = "12345";
-		let num_sum = 0;
-		for (let i = 0; i < num.length; i++ ) {
-			num_sum *= Number(num[i]);
+			num = "12345";
+			let num_pr = 1;
+			for (let i = 0; i < num.length; i++ ) {
+				num_sum *= Number(num[i]);
+			}
+			alert(`Произведение чисел: ${num_sum}`);
 		}
-		alert(num_sum);
 	</script>
 </body>
 </html>

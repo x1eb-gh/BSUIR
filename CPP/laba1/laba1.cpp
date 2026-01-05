@@ -1,19 +1,14 @@
 ﻿// laba1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
-#include <iostream>
-#include <conio.h>
 #include <cmath>
 #include <stdio.h>
 
 using namespace std;
 
-void main()
-{
-    setlocale(LC_ALL, "rus");
-
+void main() {
     double x, y, z;
-
+    
     puts("Hi! Please, print values of variables!");
     printf("x =  "); scanf_s("%lf", &x);
     printf("y =  "); scanf_s("%lf", &y);
@@ -24,9 +19,8 @@ void main()
     double res_3 = pow(sin(atan(z)), 2);
 
     double result = res_2 + res_3;
-    printf("Result = %lf\n", result);
-    printf("Press any key to exit.... ");
-    _getch();
+
+    printf("Result = %lf\n\n\n", result);
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
