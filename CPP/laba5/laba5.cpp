@@ -20,23 +20,21 @@ int main() {
     } while (n < 1 || n > 20);
 
     // 5.	Произведение элементов массива, расположенных между первым и вторым нулевыми элементами.
-    int a[20] = {};
+    int a[20];
     int sw;
     int furst_null_index = -1 , second_null_index = -1;
     puts("1 - from keyboard, other - random variables");
     scanf_s("%i", &sw);
 
     for (int i = 0; i < n; i++) {
-
-        switch (sw) {
-            case 1:
-                scanf_s("%i", &a[i]);
-                break;
-            default:
-                a[i] = rand() % 10;
-                break;
+        if (sw == 1) {
+            scanf_s("%i", &a[i]);
         }
-
+        else {
+            a[i] = rand() % 10;
+        }
+    }
+    for (int i = 0; i < n; i++) {
         if (a[i] == 0) {
             if (furst_null_index == -1) {
                 furst_null_index = i;

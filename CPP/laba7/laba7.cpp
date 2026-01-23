@@ -14,7 +14,7 @@ void main() {
     cout << "Print string:" << endl;
     cout << "String: ";
     cin.getline(str, n);
-
+    
     int i = 0;
     while (i < n && str[i] != '\0') {
         while (str[i] != '\0' && str[i] != '0' && str[i] != '1') {
