@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<img src="bg.jpg" alt="Фон">
+			<img src="planet-1.png" alt="Планета 1" class="planet1">
+			<img src="planet-2.png" alt="Планета 2" class="planet2">
+			<img src="planet-3.png" alt="Планета 3" class="planet3">
+			<div id="carousel">
+				<img src="spaceship.png" alt="Космокорабль" class="spaceship">
+				<img src="ufo.png" alt="НЛО" class="ufo">
+				<img src="asteroid.png" alt="Астероид" class="asteroid">
+			</div>
+			<img src="superman.png" alt="Супермен" class="superman">
+			<button id="fly">Полетели</button>
+		</div>
+		<script>
+			const carousel = document.getElementById("carousel");
+			document.getElementById("fly").addEventListener("click", () => {
+				const firstSrc = carousel.children[0].src;
+				for (let i = 0; i < carousel.childElementCount; i++) {
+					if (i === carousel.childElementCount - 1) {
+						carousel.children[i].src = firstSrc;
+					} else {
+						carousel.children[i].src = carousel.children[i + 1].src;
+					}
+				}
+			});
+		</script>
+	</body>
+</html>

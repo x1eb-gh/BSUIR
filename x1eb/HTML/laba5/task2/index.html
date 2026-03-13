@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<input id="input" type="text">
+	<button id="button" onclick="onButtonClick()">Обработать!</button>
+	<script>
+		let onButtonClick = () => {	
+			let name = document.getElementById("input").value;
+			for (let i = 0; i < name.length; i++ ) {
+				alert(name[i]);
+			}
+
+			num = "12345";
+			let num_pr = 1;
+			for (let i = 0; i < num.length; i++ ) {
+				num_sum *= Number(num[i]);
+			}
+			alert(`Произведение чисел: ${num_sum}`);
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+table {
+	display: flex;
+	justify-content: center;
+	gap: 6px;
+	margin: 20px 0;
+}
+
+table td {
+	width: 40px;
+	height: 40px;
+	background-color: #ddd;
+	color: #333;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	user-select: none;
+}
+
+table td:hover {
+	background-color: #ccc;
+}
+
+table td:active {
+	background-color: #d10953;
+	color: #fff;
+}

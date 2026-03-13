@@ -1,0 +1,33 @@
+main {
+	display: flex;
+	justify-content: center;
+	gap: 6px;
+	margin: 20px 0;
+	background-color: #f8f8f8;
+}
+
+form {
+	width: 320px;
+	background-color: #fff;
+	padding: 15px;
+}
+
+form input {
+	width: 320px;
+	height: 40px;
+	margin-bottom: 10px;
+	border: #ccc;
+	border-radius: 20px;
+	padding: 0 15px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #1cbc11;
+	color: white;
+}
+
+input[type="submit"]:hover {
+	background-color: #14a20a;
+}

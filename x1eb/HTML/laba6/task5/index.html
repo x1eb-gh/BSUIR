@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<main>
+			<input type="text" id="text">     <div id="res" style="display: inline;"></div>
+		</main>
+		<script>
+			document.getElementById("text").addEventListener("input", function() {
+				document.getElementById("res").textContent = document.getElementById("text").value;
+			});
+		</script>
+	</body>
+</html>

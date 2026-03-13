@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<main>
+			<p><b>Прогресс-бар</b></p>
+			<progress id="pr-b-1" value="0" max="100">fwefew</progress><p style="display: inline;" id="pr-b-1-text"></p><br><br>
+			<button id="b-1" style="color: white; background-color: blue;" onclick="doIncreaseProgress()">Увеличить значение</button>
+		</main>
+		<script>
+			let doIncreaseProgress = () => {
+				document.getElementById("pr-b-1").value += 10;
+				document.getElementById("pr-b-1-text").textContent = "  " + document.getElementById("pr-b-1").value + " %";
+			}
+		</script>
+	</body>
+</html>

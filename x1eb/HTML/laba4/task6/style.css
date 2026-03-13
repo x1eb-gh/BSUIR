@@ -1,0 +1,40 @@
+p {
+	font-size: 24px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+}
+
+.text1 {
+	 text-shadow: gray 24px 24px;
+}
+
+.text2 {
+	text-shadow: gray 24px 24px 2px;
+}
+
+.text3 {
+	text-shadow: red -15px -15px 2px, blue 15px 15px 2px;
+}
+
+.text4 {
+	font-weight: bold;
+	text-shadow: gray 0 2px 1px;
+	background-clip: text;
+	color: transparent;
+	background-color: beige;
+}
+
+.text5 {
+	color: burlywood;
+	font-weight: bold;
+	text-shadow: gray 1px 1px 1px;
+}
+
+.text6 {
+	color: burlywood;
+	text-shadow: 
+		gray -1px -1px 0,  
+		gray 1px -1px 0,
+		gray -1px  1px 0,
+		gray 1px  1px 0;
+}

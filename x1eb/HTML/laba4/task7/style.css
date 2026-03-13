@@ -1,0 +1,18 @@
+p {
+	margin: 70px;
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+}
+
+.box1 {
+	box-shadow: gray 20px 20px 5px;
+}
+
+.box2 {
+	box-shadow: gray 15px 15px 5px, gray -15px -15px 5px;
+}
+
+.box3 {
+	box-shadow: inset gray 5px 5px 5px;
+}

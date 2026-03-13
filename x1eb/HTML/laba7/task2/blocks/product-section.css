@@ -1,0 +1,139 @@
+.product-section{
+	width: 1440px;
+	height: 1427.5px;
+	display: grid;
+	grid-template-columns: repeat(2, 705.5px);
+	grid-template-rows: repeat(2, 705.5px);
+	padding-top: 150px;
+}
+
+.product-section-card{
+	width: 683px;
+	height: 683px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.product-section-card-title{
+	color: #FFFAEF;
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: 0.4px;
+}
+
+.product-section-card-text{
+	width: 480px;
+	height: 78px;
+	color: #FFFAEF;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 24px;
+	letter-spacing: 0.4px;
+	text-align: center;
+	position: relative;
+	bottom: 50px;
+}
+
+.product-section-btn{
+	width: 683px;
+	height: 60px;
+	text-align: center;
+	background-color: #E1FF32;
+	color: #3E3935;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 24px;
+	border: 0;
+	position: relative;
+	top: 382px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.product-section-btn:hover{
+	background-color: #d1ed2f;
+	transition: 0.2s;
+}
+
+.product-card-1-1{
+	background-image: url("../assets/product1-1.png");
+	transition: 1.5s;
+}
+
+.product-card-2-1{
+	background-image: url("../assets/product2-1.png");
+	transition: 1.5s;
+}
+
+.product-card-3-1{
+	background-image: url("../assets/product3-1.png");
+	transition: 1.5s;
+}
+
+.product-card-4-1{
+	background-image: url("../assets/product4-1.png");
+	transition: 1.5s;
+}
+
+.product-card-5-1{
+	background-image: url("../assets/product5-1.png");
+	transition: 1.5s;
+}
+
+.product-card-6-1{
+	background-image: url("../assets/product6-1.png");
+	transition: 1.5s;
+}
+
+.product-card-7-1{
+	background-image: url("../assets/product7-1.png");
+	transition: 1.5s;
+}
+
+.product-card-8-1{
+	background-image: url("../assets/product8-1.png");
+	transition: 1.5s;
+}
+
+.product-card-1-2{
+	background-image: url("../assets/product1-2.png");
+	transition: 1.5s;
+}
+
+.product-card-2-2{
+	background-image: url("../assets/product2-2.png");
+	transition: 1.5s;
+}
+
+.product-card-3-2{
+	background-image: url("../assets/product3-2.png");
+	transition: 1.5s;
+}
+
+.product-card-4-2{
+	background-image: url("../assets/product4-2.png");
+	transition: 1.5s;
+}
+
+.product-card-5-2{
+	background-image: url("../assets/product5-2.png");
+	transition: 1.5s;
+}
+
+.product-card-6-2{
+	background-image: url("../assets/product6-2.png");
+	transition: 1.5s;
+}
+
+.product-card-7-2{
+	background-image: url("../assets/product7-2.png");
+	transition: 1.5s;
+}
+
+.product-card-8-2{
+	background-image: url("../assets/product8-2.png");
+	transition: 1.5s;
+}
+
