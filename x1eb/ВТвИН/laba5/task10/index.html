@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<script>
+		let sum = +prompt("Сумма вашей ЗП:");
+		
+		let result = "";
+		sum *= 1.15;
+		result += `Премия 15% -> ${Math.round(sum)}\n`;
+
+		sum *= 0.9;
+		result += `Налоги 10% -> ${Math.round(sum)}\n`;
+
+		sum -= 90;
+		result += `Трата в магазине 90 руб. -> ${Math.round(sum)}\n`;
+
+		sum /= 2;
+		result += `Половина жене -> ${Math.round(sum)}`;
+
+		alert(result);
+
+	</script>
+</body>
+</html>

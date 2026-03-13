@@ -1,0 +1,63 @@
+.string {
+	display: flex;
+	width: 500px;
+	margin-bottom: 5px;
+	gap: 5px;
+}
+
+.box {
+	height: 150px;
+	flex-grow: 2;
+	border: 1px solid black;
+}
+
+.box1 {
+	background: linear-gradient(yellow, white);
+}
+
+.box2 {
+	background: linear-gradient(90deg, yellow, white);
+}
+
+.box3 {
+	background: linear-gradient(270deg, yellow, white);
+}
+
+.box4 {
+	background: linear-gradient(red 33%, white 33%, white 66%, red 66%);
+}
+
+.box5 {
+	background: linear-gradient(90deg, red, red 3%, blue 40%, white 85%, red 99%);
+}
+
+.box6 {
+	background: radial-gradient(white, blue);
+}
+
+.box7 {
+	width: 150px;
+	background: radial-gradient(white, blue);
+}
+
+.box8 {
+	background: radial-gradient(40px at 30px 30px, white, blue);
+}
+
+.box9 {
+	background: radial-gradient(circle, black, black 7%, white 9%, white 14%, green 27%);
+}
+
+.box10 {
+	background: repeating-linear-gradient(black, black 3px, white 3px, white 6px);
+}
+
+.box11 {
+	background: repeating-linear-gradient(45deg, black, black 4px, red 4px, red 8px);
+	height: 70px;
+}
+
+.box12 {
+	background: repeating-radial-gradient(circle, black, black 5px, white 5px, white 10px);
+	height: 500px;
+}

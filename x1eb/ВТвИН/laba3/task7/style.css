@@ -1,0 +1,37 @@
+.nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: #333;
+}
+
+.nav > ul > li {
+	display: inline-block;
+	position: relative;
+}
+
+.nav li a {
+	display: block;
+	color: white;
+	padding: 14px 20px;
+	text-decoration: none;
+}
+
+.nav li:hover > a {
+	background-color: #555;
+}
+
+
+.nav .submenu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #333;
+	min-width: 160px;
+	z-index: 1;
+}
+
+.nav li:hover .submenu {
+	display: block;
+}

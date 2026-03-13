@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<button class="button">
+			Отправить в работу!
+			<span class="sail"></span>
+			</button>
+		</div>
+
+		<script>
+			document.getElementsByClassName("button")[0].addEventListener("click", ev => {
+				ev.target.classList.add("boat");
+			});
+		</script>
+	</body>
+</html>

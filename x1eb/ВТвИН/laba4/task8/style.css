@@ -1,0 +1,21 @@
+.btn {
+	padding: 0.5em 2em;
+	border: none;
+	border-radius: 0.3em;
+	background-color: gray;
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+}
+
+.s {
+	font-size: 10px;
+}
+
+.m {
+	font-size: 14px;
+}
+
+.l {
+	font-size: 18px;
+}
